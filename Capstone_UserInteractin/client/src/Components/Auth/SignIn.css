@@ -1,0 +1,107 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+form{
+    display: block;
+    margin-top: 0 rem;
+}
+
+main{
+    display: block;
+    
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    height: 100%;
+   
+    
+}
+
+.h1margin{
+    margin-top: 1.5rem;
+}
+.s311c {
+    background-color: #dbdbdb;
+    background-color: rgba(var(--b38,219,219,219),1);
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    height: 1px;
+    position: relative;
+    top: 0.45em;
+    
+}
+._0tv-g {
+    color: #8e8e8e;
+    color: rgba(var(--f52,142,142,142),1);
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    margin: 0 18px;
+    text-transform: uppercase;
+}
+
+.DhRcB {
+    margin-top: 8px;
+}
+.jKUp7 {
+    margin-right: 40px;
+}
+.CovQj {
+    margin-left: 40px;
+}
+.bkEs3 {
+    margin-bottom: 8px;
+}
+._4EzTm {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+.eGOV_ {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.acqo5 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+.IwRSH {
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+.Igw0E {
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+.qF0y9 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
