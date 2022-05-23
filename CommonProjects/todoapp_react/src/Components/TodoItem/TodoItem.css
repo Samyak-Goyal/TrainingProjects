@@ -1,0 +1,40 @@
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4b4b4b;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    color: white;
+    /* border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
+}
+.todo-item h2{
+    font-size: 1rem;
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.todo-description{
+    display: flex;
+    flex-flow: column-reverse;
+    gap: 1rem;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.todo-priority{
+    font-size: 1rem;
+    background-color: crimson;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.color1{
+    color: red;
+}
+
+.color2{
+    color: blue
+}

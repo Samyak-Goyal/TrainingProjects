@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Page</title>
+</head>
+
+<body>
+    <h3>Employee List</h3>
+    <table border="1">
+        <thead>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Email</td>
+            <td>Address</td>
+            <td>Action</td>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+            <tr>
+                <td>
+                    {{row[0]}}
+                </td>
+                <td>
+                    {{row[1]}}
+                </td>
+                <td>
+                    {{row[2]}}
+                </td>
+                <td>
+                    {{row[3]}}
+                </td>
+                <td>
+                    <a href="/delete/{{row[0]}}">Delete</a>
+                    <a href="/edit/{{row[0]}}">Edit</a>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <br>
+    <a href="/">Go to Home</a>
+</body>
+
+</html>

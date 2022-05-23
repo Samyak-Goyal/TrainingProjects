@@ -1,0 +1,9 @@
+.todos{
+    width: 50rem;
+    max-width: 95%;
+    background-color: rgb(31,31,31);
+    padding: 1rem;
+    margin: 2rem auto;
+    /* border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25); */
+}

@@ -1,0 +1,26 @@
+.todo-controls{
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.todo-control label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.todo-control input, .todo-control select{
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.todo-actions{
+    text-align: right;
+}
